@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --color_black: hsl(0, 0%, 0%);
+  --color_black-transparent: hsl(0, 0%, 0%, 0.5);
+  --color_white: hsl(0, 0%, 100%);
+  --color_gray-dark: hsl(0, 0%, 20%);
+  --color_gray: hsl(0, 0%, 38%);
+
+  --color_prime: var(--color_black);
+  --color_second: var(--color_white);
+  --color_third: var(--color_gray-dark);
+  --color_glass-black: var(--color_black-transparent);
+
+  --color_font-light: var(--color_white);
+  --color_font-black: var(--color_black);
+  --color_font-gray-dark: var(--color_gray-dark);
+
+
+  --font_prime: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font_prime);
+  letter-spacing: 1px;
+  color: var(--color_font-light);
+  background-color: var(--color_gray);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--color_font-light);
+  transition: color .3s;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+}
+
+h1, .h1 {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+h2, .h2 {
+  
+}
+
+h3, .h3 {
+  
+}
+
+h4, .h4 {
+  
+}
+
+h5, .h5 {
+  
+}
+
+h6, .h6 {
+  
+}
+
+.frame {
+  background-color: var(--color_glass-black);
+  backdrop-filter: blur(10px);
+  width: max-content;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: max-content;
+  padding: 0 40px;
+  background-color: var(--color_prime);
+  color: var(--color_font-light);
+  cursor: pointer;
+  &--back {
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 42px;
+    @media (max-width: 768px) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+
+.row {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  &_block {
+    display: block;
+  }
+}
+
+@keyframes image-scroll {
+  from, 15% {object-position: top;}
+  50%, 70% {object-position: bottom;}
+  90%, to {object-position: top;}
+}
