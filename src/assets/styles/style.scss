@@ -44,6 +44,9 @@ a:focus {
 h1, .h1 {
   font-size: 48px;
   font-weight: 100;
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
 }
 
 h2, .h2 {
@@ -69,7 +72,15 @@ h6, .h6 {
 .frame {
   background-color: var(--color_glass-black);
   backdrop-filter: blur(10px);
-  width: max-content;
+  &--title {
+    max-width: max-content;
+    margin-bottom: 42px;
+    padding: 12px 24px;
+    @media (max-width: 576px) {
+      margin-bottom: 20px;
+      padding: 12px 20px;
+    }
+  }
 }
 
 .button {

@@ -9,7 +9,7 @@ const projectsStore = useProjectsStore()
 
 <template>
   <div class="projects">
-    <div class="projects__title frame">
+    <div class="projects__title frame frame--title">
       <h1>Projects</h1>
     </div>
     <div class="projects__grid">
@@ -28,10 +28,6 @@ const projectsStore = useProjectsStore()
 <style lang="scss" scoped>
   .projects {
     &__title {
-      margin-bottom: 42px;
-      &.frame {
-        padding: 12px 24px;
-      }
     }
 
     &__grid {

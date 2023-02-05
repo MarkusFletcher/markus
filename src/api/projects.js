@@ -5,13 +5,13 @@ const getAllProjects = () => {
 }
 
 const getProjectById = (id) => {
-  return projects.map(el => el.id === id)[0]
+  return projects.find(el => el._id === id)
 }
 
 const getProjectByIds = (ids) => {
   return projects.map(el => {
     ids.forEach(id => {
-        return el.id === id
+        return el._id === id
     });
   })
 }

@@ -27,6 +27,14 @@ const mainStore = useMainStore()
         </div>
         <div class="menu__label">Projects</div>
       </router-link>
+      <router-link class="menu__link" to="/contacts">
+        <div class="menu__icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.5502 8.05V19.95C25.5502 21.4964 24.2966 22.75 22.7502 22.75H5.2502C3.7038 22.75 2.4502 21.4964 2.4502 19.95V8.05M25.5502 8.05C25.5502 6.5036 24.2966 5.25 22.7502 5.25H5.2502C3.7038 5.25 2.4502 6.5036 2.4502 8.05M25.5502 8.05L14.0002 14.7L2.4502 8.05" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="menu__label">Contacts</div>
+      </router-link>
     </nav>
   </aside>
 </template>

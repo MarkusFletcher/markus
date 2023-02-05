@@ -41,6 +41,9 @@ onMounted(() => {
     @media (max-width: 768px) {
       padding: 20px 42px;
     }
+    @media (max-width: 576px) {
+      padding: 20px;
+    }
   }
 
   .view::-webkit-scrollbar {
