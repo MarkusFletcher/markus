@@ -51,7 +51,7 @@ const mainStore = useMainStore()
       top: 0;
       bottom: 0;
       width: 80px;
-      background-color: #000;
+      background-color: var(--color_prime);
       z-index: -1;
     }
 
