@@ -38,7 +38,7 @@ export const projects = [
     categories: [
       'training'
     ],
-    tags: ['html', 'scss', 'gulp', 'training'],
+    tags: ['html', 'scss', 'gulp', 'mobile', 'training'],
     description: 'Simple landing',
     previewImageUrl: '/images/projects/graff-pink_page.jpg',
     detailImagesUrl: [
@@ -54,7 +54,7 @@ export const projects = [
     categories: [
       'training'
     ],
-    tags: ['html', 'scss', 'gulp', 'training'],
+    tags: ['html', 'scss', 'gulp', 'mobile', 'training'],
     description: 'Simple landing',
     previewImageUrl: '/images/projects/carsharing_page.jpg',
     detailImagesUrl: [
@@ -118,7 +118,7 @@ export const projects = [
     categories: [
       'commercial'
     ],
-    tags: ['html', 'scss', 'gulp', 'commercial'],
+    tags: ['html', 'scss', 'gulp', 'mobile', 'commercial'],
     description: 'Simple landing',
     previewImageUrl: '/images/projects/ape-one_page.jpg',
     detailImagesUrl: [
