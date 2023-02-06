@@ -3,14 +3,14 @@
   import { useProjectsStore } from '@/stores/ProjectsStore.js';
 
   const props = defineProps({
-    id: {
+    code: {
       type: String,
       required: true
     }
   })
 
   const projectStore = useProjectsStore()
-  const project = projectStore.getProjectById(parseInt(props.id))
+  const project = projectStore.getProjectByCode(props.code)
 </script>
 
 <template>

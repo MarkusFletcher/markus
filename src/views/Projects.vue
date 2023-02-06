@@ -17,7 +17,6 @@ const projectsStore = useProjectsStore()
         v-for="project of projectsStore.getAllProjects"
         :key="project._id"
         :title="project.name"
-        :id="project._id"
         :code="project.code"
         :imgUrl="project.previewImageUrl">
       </project-card>

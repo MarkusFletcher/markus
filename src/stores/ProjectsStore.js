@@ -11,6 +11,9 @@ export const useProjectsStore = defineStore('projectsStore', {
     },
     getProjectById() {
       return (id) => this.projects.find(el => el._id === id)
+    },
+    getProjectByCode() {
+      return (code) => this.projects.find(el => el.code === code)
     }
   },
   actions: {
