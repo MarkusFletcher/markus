@@ -5,6 +5,8 @@ import { useProjectsStore } from '@/stores/ProjectsStore.js'
 
 const projectsStore = useProjectsStore()
 
+const projects = [...projectsStore.getAllProjects].reverse()
+
 </script>
 
 <template>
@@ -14,7 +16,7 @@ const projectsStore = useProjectsStore()
     </div>
     <div class="projects__grid">
       <project-card
-        v-for="project of projectsStore.getAllProjects"
+        v-for="project of projects"
         :key="project._id"
         :title="project.name"
         :code="project.code"
