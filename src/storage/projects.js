@@ -71,7 +71,7 @@ export const projects = [
       'training'
     ],
     tags: ['html', 'scss', 'gulp', 'training'],
-    description: 'Simple landing',
+    description: 'Furniture shop',
     previewImageUrl: '/images/projects/desire_page.jpg',
     detailImagesUrl: [
       '/images/projects/desire_page.jpg'
@@ -103,7 +103,7 @@ export const projects = [
       'training'
     ],
     tags: ['html', 'scss', 'gulp', 'training'],
-    description: 'Simple landing',
+    description: 'Blog',
     previewImageUrl: '/images/projects/blog_page.jpg',
     detailImagesUrl: [
       '/images/projects/blog_page.jpg'
@@ -126,5 +126,21 @@ export const projects = [
     ],
     githubLink: 'https://github.com/MarkusFletcher/ApeOne',
     viewLink: 'https://markusfletcher.github.io/ApeOne/app/'
+  },
+  {
+    _id: 9,
+    name: 'tomoto',
+    code: 'tomoto',
+    categories: [
+      'training'
+    ],
+    tags: ['vue', 'pinia', 'scss', 'training'],
+    description: 'Таймер для работы',
+    previewImageUrl: '/images/projects/tomoto.jpg',
+    detailImagesUrl: [
+      '/images/projects/tomoto_big.jpg'
+    ],
+    githubLink: 'https://github.com/MarkusFletcher/tomoto',
+    viewLink: 'https://tomoto-two.vercel.app'
   }
 ]
