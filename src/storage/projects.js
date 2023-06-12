@@ -113,6 +113,22 @@ export const projects = [
   },
   {
     _id: 8,
+    name: 'insystem',
+    code: 'insystem',
+    categories: [
+      'training'
+    ],
+    tags: ['html', 'scss', 'gulp', 'training'],
+    description: 'Simple landing',
+    previewImageUrl: '/images/projects/insystem_page.jpg',
+    detailImagesUrl: [
+      '/images/projects/insystem_page.jpg'
+    ],
+    githubLink: 'https://github.com/MarkusFletcher/insystem',
+    viewLink: 'https://markusfletcher.github.io/port/insystem/index.html'
+  },
+  {
+    _id: 9,
     name: 'APE ONE',
     code: 'ape-one',
     categories: [
@@ -128,7 +144,7 @@ export const projects = [
     viewLink: 'https://markusfletcher.github.io/ApeOne/app/'
   },
   {
-    _id: 9,
+    _id: 10,
     name: 'tomoto',
     code: 'tomoto',
     categories: [
@@ -144,7 +160,7 @@ export const projects = [
     viewLink: 'https://tomoto-two.vercel.app'
   },
   {
-    _id: 10,
+    _id: 11,
     name: 'Maibenben P527',
     code: 'maibenben_promo',
     categories: [
