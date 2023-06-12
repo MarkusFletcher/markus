@@ -142,5 +142,21 @@ export const projects = [
     ],
     githubLink: 'https://github.com/MarkusFletcher/tomoto',
     viewLink: 'https://tomoto-two.vercel.app'
+  },
+  {
+    _id: 10,
+    name: 'Maibenben P527',
+    code: 'maibenben_promo',
+    categories: [
+      'commercial'
+    ],
+    tags: ['html', 'scss', 'gulp', 'mobile', 'commercial'],
+    description: 'Страница предзаказа новой модели ноутбука',
+    previewImageUrl: '/images/projects/maibenben_promo_page.jpg',
+    detailImagesUrl: [
+      '/images/projects/maibenben_promo_page_big.jpg'
+    ],
+    githubLink: '',
+    viewLink: 'https://shop-maibenben.ru/product-category/predzakazy/seriax/'
   }
 ]
