@@ -118,7 +118,7 @@ h6, .h6 {
 }
 
 @keyframes image-scroll {
-  from, 15% {object-position: top;}
-  50%, 70% {object-position: bottom;}
-  90%, to {object-position: top;}
+  from, 5% {object-position: top;}
+  40%, 60% {object-position: bottom;}
+  80%, to {object-position: top;}
 }
