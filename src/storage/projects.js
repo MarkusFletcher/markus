@@ -119,7 +119,7 @@ export const projects = [
       'commercial'
     ],
     tags: ['html', 'scss', 'gulp', 'mobile', 'commercial'],
-    description: 'Simple landing',
+    description: 'Лэндинг для NFT проекта',
     previewImageUrl: '/images/projects/ape-one_page.jpg',
     detailImagesUrl: [
       '/images/projects/ape-one_page_big.jpg'
