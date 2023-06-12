@@ -74,7 +74,7 @@ export const projects = [
     description: 'Furniture shop',
     previewImageUrl: '/images/projects/desire_page.jpg',
     detailImagesUrl: [
-      '/images/projects/desire_page.jpg'
+      '/images/projects/desire_page_big.jpg'
     ],
     githubLink: 'https://github.com/MarkusFletcher',
     viewLink: 'https://markusfletcher.github.io/port/desire/index.html'
@@ -122,7 +122,7 @@ export const projects = [
     description: 'Simple landing',
     previewImageUrl: '/images/projects/insystem_page.jpg',
     detailImagesUrl: [
-      '/images/projects/insystem_page.jpg'
+      '/images/projects/insystem_page_big.jpg'
     ],
     githubLink: 'https://github.com/MarkusFletcher/insystem',
     viewLink: 'https://markusfletcher.github.io/port/insystem/index.html'
